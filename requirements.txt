@@ -1,0 +1,2 @@
+# File: requirements.txt
+print('Hello from qvf_prototype/requirements.txt')
