@@ -20,38 +20,38 @@
 
 ```
 
-qvf\_prototype/
+qvf_prototype/
 ├── core/                  # Quantum graph construction and trading logic
-│   ├── market\_state\_tensor.py
-│   ├── quantum\_graph\_builder.py
-│   ├── trading\_agent\_rl.py
-│   ├── qkernel\_market.py
-│   └── signal\_collapse\_engine.py
+│   ├── market_state_tensor.py
+│   ├── quantum_graph_builder.py
+│   ├── trading_agent_rl.py
+│   ├── qkernel_market.py
+│   └── signal_collapse_engine.py
 │
 ├── data/                  # Market data and phase mapping configurations
-│   ├── futures\_data.csv
-│   └── phase\_links\_config.json
+│   ├── futures_data.csv
+│   └── phase_links_config.json
 │
 ├── simulation/            # Backtest and RL training routines
-│   ├── run\_backtest.py
-│   ├── train\_agent.py
+│   ├── run_backtest.py
+│   ├── train_agent.py
 │   └── config.yaml
 │
 ├── visualization/         # Plotting utilities for signals and graph states
-│   ├── plot\_market\_graph.py
-│   └── plot\_trading\_signals.py
+│   ├── plot_market_graph.py
+│   └── plot_trading_signals.py
 │
 ├── utils/                 # Helpers and custom metrics
-│   ├── data\_utils.py
+│   ├── data_utils.py
 │   └── metrics.py
 │
 ├── notebooks/             # Exploratory strategy development
-│   ├── 00\_intro\_qvf.ipynb
-│   └── 01\_rl\_trading\_simulation.ipynb
+│   ├── 00_intro_qvf.ipynb
+│   └── 01_rl_trading_simulation.ipynb
 │
 ├── tests/                 # Unit tests
-│   ├── test\_graph\_builder.py
-│   └── test\_trading\_agent.py
+│   ├── test_graph_builder.py
+│   └── test_trading_agent.py
 │
 ├── docs/                  # Documentation and theory
 │   ├── README.md
@@ -104,22 +104,6 @@ python main.py
 * Risk-aware position sizing using MST entropy
 * Alpha signal refinement through harmonic alignment
 * Adaptive RL agents that align to market attractor basins
-
----
-
-## 📚 References
-
-* Sigdel, D. “Quantum Graph Kernel for Financial Signal Processing”
-* Bachelier, L. “Theory of Speculation”
-* Quantum cognition & market phase models (Busemeyer, Haven)
-
----
-
-## 🧑‍💻 Author
-
-**Dibakar Sigdel**
-Quantum Graph Theorist, Reinforcement Learning Architect, Financial Systems Designer
-🌐 \[Your GitHub / Portfolio / LinkedIn]
 
 ---
 
